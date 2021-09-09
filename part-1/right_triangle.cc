@@ -1,12 +1,12 @@
-// Tuffy Titan
+// Grace Lee
 // CPSC 120-01
-// 2050-01-01
-// tuffy.titan@csu.fullerton.edu
-// @tuffytitan
+// 2021-09-09
+// grace1@csu.fullerton.edu
+// @gracelee2
 //
-// Lab 00-00
+// Lab 01-01
 //
-// This my first program and it prints out Hello World!
+// This my lab and it prints out the sides of a triangle!
 //
 
 #include <iostream>
@@ -17,6 +17,17 @@ using namespace std;
 // has a special meaning in C++. Whenever you run this program it will
 // start executing from the first line of this function.
 int main(int argc, char const *argv[]) {
+  int side_a =3;
+  int side_b =4;
+  int side_c= 5;
+  cout << "What's the length of the first side?\n";
+  cin >> side_a;
+  cout << "What's the length of the second side?\n";
+  cin >> side_b;
+  cout << "What's the length of the third side\n";
+  cin >> side_c;
+
+
   // Remember that the Pythagorean Theorem states that given a right triangle (a
   // triangle with one 90 degree angle), the sum of the squares of its sides sum
   // to the square of the hypotenuse. That means we can express the theorem as
