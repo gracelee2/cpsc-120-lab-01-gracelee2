@@ -27,7 +27,7 @@ int main(int argc, char const *argv[]) {
   cout << "What's the length of the diagonal or hypontenuse?\n";
   cin >> side_c;
   cout << "A triangle with sides of length " << side_a << " and " << side_b
-  << " with a hypotenuse of length " << side_c << " is a right triangle!";
+       << " with a hypotenuse of length " << side_c << " is a right triangle!";
 
   // Remember that the Pythagorean Theorem states that given a right triangle (a
   // triangle with one 90 degree angle), the sum of the squares of its sides sum
