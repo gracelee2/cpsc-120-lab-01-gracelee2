@@ -17,16 +17,17 @@ using namespace std;
 // has a special meaning in C++. Whenever you run this program it will
 // start executing from the first line of this function.
 int main(int argc, char const *argv[]) {
-  int side_a =0;
-  int side_b=0;
-  int side_c=0;
+  int side_a = 0;
+  int side_b = 0;
+  int side_c = 0;
   cout << "What's the length of the first side?\n";
   cin >> side_a;
   cout << "What's the length of the second side?\n";
   cin >> side_b;
   cout << "What's the length of the diagonal or hypontenuse?\n";
   cin >> side_c;
-  cout << "A triangle with sides of length " << side_a << " and " << side_b << " with a hypotenuse of length "<< side_c << " is a right triangle!";
+  cout << "A triangle with sides of length " << side_a << " and " << side_b
+  << " with a hypotenuse of length "<< side_c << " is a right triangle!";
 
 
   // Remember that the Pythagorean Theorem states that given a right triangle (a
