@@ -7,7 +7,7 @@
 // Lab 01-03
 //
 // This program prints out the number of days, hours, minutes, and seconds there
-//is in the number entered.
+// is in the number entered.
 //
 
 #include <iostream>
@@ -30,23 +30,23 @@ int main(int argc, char const *argv[]) {
   cin >> number_seconds;
   // TODO: Calculate the total number of days, store the result in a new
   // variable named number_days
-  int number_days = number_seconds / num_sec_day ;
+  int number_days = number_seconds / num_sec_day;
 
   // TODO: Calculate the remaining number of seconds, store the result back into
   // number_seconds
-      number_seconds = number_seconds % num_sec_day;
+  number_seconds = number_seconds % num_sec_day;
   // TODO: Calculate the total number of hours, store the result in a new
   // variable named number_hours
   int number_hours = number_seconds / num_sec_hour;
   // TODO: Calculate the remaining number of seconds, store the result back into
   // number_seconds
-      number_seconds = number_seconds % num_sec_hour;
+  number_seconds = number_seconds % num_sec_hour;
   // TODO: Calculate the total number of minutes, store the result in a new
   // variable named number_minutes
   int number_minutes = number_seconds / num_sec_min;
   // TODO: Calculate the remaining number of seconds, store the result back into
   // number_seconds
-      number_seconds = number_seconds % num_sec_min;
+  number_seconds = number_seconds % num_sec_min;
   // TODO: Display the resulting values in a nice way.
   cout << "That's " << number_days << " days, " << number_hours << " hours, "
        << number_minutes << " minutes,and " << number_seconds << " seconds.\n";
