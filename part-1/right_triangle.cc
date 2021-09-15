@@ -65,7 +65,8 @@ int main(int argc, char const *argv[]) {
   // entered into our program.
   cout << "You entered " << side_a << " for the length of the first side.\n";
   cout << "You entered " << side_b << " for the length of the second side.\n";
-  cout << "You entered " << side_c << " for the length of the diagonal or hypontenuse.\n";
+  cout << "You entered " << side_c
+       << " for the length of the diagonal or hypontenuse.\n";
   // TODO: Write an if statement that compares right_hand_side and
   // left_hand_side using the == operator. If they're the same value, then
   // print out that the triangle is a right triangle; else print out that
