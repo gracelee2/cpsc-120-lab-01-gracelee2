@@ -69,12 +69,12 @@ cout<<"The right hand side is " <<right_hand_side<< " number\n";
   // left_hand_side using the == operator. If they're the same value, then
   // print out that the triangle is a right triangle; else print out that
   // the triangle is not a right triangle.
-//if(left_hand_side==right_hand_side){
-  //cout << "A triangle with sides of length " << side_a << " and " << side_b
-      // << " with a hypotenuse of length " << side_c << " is a right triangle!";
-//}else if(left_hand_side!=right_hand_side){
-//  cout << "A triangle with sides of length " << side_a << " and " << side_b
-    //   << " with a hypotenuse of length " << side_c << " is not a right triangle.";
-//}
+if(left_hand_side==right_hand_side){
+  cout << "A triangle with sides of length " << side_a << " and \n" << side_b
+       << " with a hypotenuse of length " << side_c << " is a right triangle!\n";
+}else if(left_hand_side!=right_hand_side){
+ cout << "A triangle with sides of length " << side_a << " and \n" << side_b
+       << " with a hypotenuse of length " << side_c << " is not a right triangle.\n";
+}
   return 0;
 }
