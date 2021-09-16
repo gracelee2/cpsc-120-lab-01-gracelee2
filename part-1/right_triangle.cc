@@ -42,7 +42,7 @@ int main(int argc, char const *argv[]) {
   int side_c = 0;
 
   cin >> side_c;
-  
+
   int left_hand_side = (side_a * side_a) + (side_b * side_b);
 
 
