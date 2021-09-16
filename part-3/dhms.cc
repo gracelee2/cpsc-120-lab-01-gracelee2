@@ -15,7 +15,6 @@
 using namespace std;
 
 int main(int argc, char const *argv[]) {
-
   const int knumsecmin = 60;
 
   const int knumsechour = 3600;
@@ -29,7 +28,6 @@ int main(int argc, char const *argv[]) {
   cin >> number_seconds;
 
   int number_days = number_seconds / knumsecday;
-
 
   number_seconds = number_seconds % knumsecday;
 
