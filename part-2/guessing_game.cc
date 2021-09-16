@@ -14,15 +14,15 @@
 using namespace std;
 
 int main(int argc, char const *argv[]) {
-  
+
   int secret_number = 42;
-  
+
   int player_guess = 0;
-  
+
   cout << "Guess a number:\n";
-  
+
   cin >> player_guess;
-  
+
   cout << "You guessed " << player_guess << ", let's see if that's right...\n";
   
   if (secret_number == player_guess) {
