@@ -15,39 +15,32 @@
 using namespace std;
 
 int main(int argc, char const *argv[]) {
-  // TODO: Declare a const int for the number of seconds in a minute
-  const int num_sec_min = 60;
-  // TODO: Declare a const int for the number of seconds in an hour
-  const int num_sec_hour = 3600;
-  // TODO: Declare a const int for the number of seconds in a day
-  const int num_sec_day = 86400;
-  // TODO: Declare an int variable named number_seconds to store the input
+  
+  const int knumsecmin = 60;
+  
+  const int knumsechour = 3600;
+  
+  const int knumsecday = 86400;
+  
   int number_seconds = 0;
-  // TODO: Print a prompt for how many seconds the program is going to convert
-  // from Remember not to put a "\n"
+  
   cout << "Please enter the number of seconds you'd like to convert:";
-  // TODO: Use cin to store the number of seconds into number_seconds
+  
   cin >> number_seconds;
-  // TODO: Calculate the total number of days, store the result in a new
-  // variable named number_days
-  int number_days = number_seconds / num_sec_day;
+  
+  int number_days = number_seconds / knumsecday;
 
-  // TODO: Calculate the remaining number of seconds, store the result back into
-  // number_seconds
-  number_seconds = number_seconds % num_sec_day;
-  // TODO: Calculate the total number of hours, store the result in a new
-  // variable named number_hours
-  int number_hours = number_seconds / num_sec_hour;
-  // TODO: Calculate the remaining number of seconds, store the result back into
-  // number_seconds
-  number_seconds = number_seconds % num_sec_hour;
-  // TODO: Calculate the total number of minutes, store the result in a new
-  // variable named number_minutes
-  int number_minutes = number_seconds / num_sec_min;
-  // TODO: Calculate the remaining number of seconds, store the result back into
-  // number_seconds
-  number_seconds = number_seconds % num_sec_min;
-  // TODO: Display the resulting values in a nice way.
+  
+  number_seconds = number_seconds % knumsecday;
+  
+  int number_hours = number_seconds / knumsechour;
+  
+  number_seconds = number_seconds % knumsechour;
+  
+  int number_minutes = number_seconds / knumsecmin;
+  
+  number_seconds = number_seconds % knumsecmin;
+  
   cout << "That's " << number_days << " days, " << number_hours << " hours, "
        << number_minutes << " minutes,and " << number_seconds << " seconds.\n";
   return 0;
