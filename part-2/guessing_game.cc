@@ -14,8 +14,7 @@
 using namespace std;
 
 int main(int argc, char const *argv[]) {
-
-  int secret_number = 42;
+  const int kSecretNumber = 42;
 
   int player_guess = 0;
 
@@ -25,15 +24,13 @@ int main(int argc, char const *argv[]) {
 
   cout << "You guessed " << player_guess << ", let's see if that's right...\n";
 
-  if (secret_number == player_guess) {
+  if (kSecretNumber == player_guess) {
     cout << "Winner, winner, chicken dinner!\n";
   } else if (player_guess < secret_number) {
     cout << "Getting colder...\n";
   } else if (player_guess > secret_number) {
     cout << "Too warm...\n";
   }
-
-  
 
   return 0;
 }
