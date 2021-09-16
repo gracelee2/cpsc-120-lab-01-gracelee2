@@ -17,26 +17,18 @@ using namespace std;
 // has a special meaning in C++. Whenever you run this program it will
 // start executing from the first line of this function.
 int main(int argc, char const *argv[]) {
-
-
-
-
-  
   cout << "What's the length of the first side?\n";
 
   int side_a = 0;
 
   cin >> side_a;
 
-  
   cout << "What's the length of the second side?\n";
 
-  
   int side_b = 0;
 
   cin >> side_b;
 
-  
   cout << "What's the length of the diagonal or hypontenuse?\n";
 
   int side_c = 0;
@@ -45,8 +37,6 @@ int main(int argc, char const *argv[]) {
 
   int left_hand_side = (side_a * side_a) + (side_b * side_b);
 
-
-  
   int right_hand_side = side_c * side_c;
 
   cout << "You entered " << side_a << " for the length of the first side.\n";
