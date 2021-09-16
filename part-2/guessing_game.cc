@@ -24,7 +24,7 @@ int main(int argc, char const *argv[]) {
   cin >> player_guess;
 
   cout << "You guessed " << player_guess << ", let's see if that's right...\n";
-  
+
   if (secret_number == player_guess) {
     cout << "Winner, winner, chicken dinner!\n";
   } else if (player_guess < secret_number) {
