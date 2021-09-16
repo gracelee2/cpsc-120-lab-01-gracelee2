@@ -26,9 +26,9 @@ int main(int argc, char const *argv[]) {
 
   if (kSecretNumber == player_guess) {
     cout << "Winner, winner, chicken dinner!\n";
-  } else if (player_guess < secret_number) {
+  } else if (player_guess < kSecretNumber) {
     cout << "Getting colder...\n";
-  } else if (player_guess > secret_number) {
+  } else if (player_guess > kSecretNumber) {
     cout << "Too warm...\n";
   }
 
